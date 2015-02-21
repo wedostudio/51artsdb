@@ -1,0 +1,1007 @@
+2015-02-14 17:21:32 733 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-14 17:21:32 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-14 17:21:32 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-14 17:21:32 1120 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-14 17:21:32 1120 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-14 17:21:32 1120 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-14 17:21:32 1120 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-14 17:21:32 1120 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-14 17:21:32 1120 [Note] InnoDB: Memory barrier is not used
+2015-02-14 17:21:32 1120 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-14 17:21:32 1120 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-14 17:21:32 1120 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-14 17:21:32 1120 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-14 17:21:32 1120 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-14 17:21:32 1120 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-14 17:21:32 1120 [Note] InnoDB: Waiting for purge to start
+2015-02-14 17:21:32 1120 [Note] InnoDB: 5.6.21 started; log sequence number 1625190
+2015-02-14 17:21:32 1120 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-14 17:21:32 1120 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-14 17:21:32 1120 [Note] Event Scheduler: Loaded 0 events
+2015-02-14 17:21:32 1120 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
+2015-02-14 18:04:53 1120 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Normal shutdown
+
+2015-02-14 18:04:53 1120 [Note] Giving 0 client threads a chance to die gracefully
+2015-02-14 18:04:53 1120 [Note] Event Scheduler: Purging the queue. 0 events
+2015-02-14 18:04:53 1120 [Note] Shutting down slave threads
+2015-02-14 18:04:53 1120 [Note] Forcefully disconnecting 0 remaining clients
+2015-02-14 18:04:53 1120 [Note] Binlog end
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'partition'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_METRICS'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_CMP'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_LOCKS'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'INNODB_TRX'
+2015-02-14 18:04:53 1120 [Note] Shutting down plugin 'InnoDB'
+2015-02-14 18:04:53 1120 [Note] InnoDB: FTS optimize thread exiting.
+2015-02-14 18:04:53 1120 [Note] InnoDB: Starting shutdown...
+2015-02-14 18:04:55 1120 [Note] InnoDB: Shutdown completed; log sequence number 1625200
+2015-02-14 18:04:55 1120 [Note] Shutting down plugin 'BLACKHOLE'
+2015-02-14 18:04:55 1120 [Note] Shutting down plugin 'ARCHIVE'
+2015-02-14 18:04:55 1120 [Note] Shutting down plugin 'MRG_MYISAM'
+2015-02-14 18:04:55 1120 [Note] Shutting down plugin 'MyISAM'
+2015-02-14 18:04:55 1120 [Note] Shutting down plugin 'MEMORY'
+2015-02-14 18:04:55 1120 [Note] Shutting down plugin 'CSV'
+2015-02-14 18:04:55 1120 [Note] Shutting down plugin 'sha256_password'
+2015-02-14 18:04:55 1120 [Note] Shutting down plugin 'mysql_old_password'
+2015-02-14 18:04:55 1120 [Note] Shutting down plugin 'mysql_native_password'
+2015-02-14 18:04:55 1120 [Note] Shutting down plugin 'binlog'
+2015-02-14 18:04:55 1120 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
+2015-02-14 20:32:57 729 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-14 20:32:58 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-14 20:32:58 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-14 20:32:58 1113 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-14 20:32:58 1113 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-14 20:32:58 1113 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-14 20:32:58 1113 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-14 20:32:58 1113 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-14 20:32:58 1113 [Note] InnoDB: Memory barrier is not used
+2015-02-14 20:32:58 1113 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-14 20:32:58 1113 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-14 20:32:58 1113 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-14 20:32:58 1113 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-14 20:32:58 1113 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-14 20:32:58 1113 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-14 20:32:58 1113 [Note] InnoDB: Waiting for purge to start
+2015-02-14 20:32:58 1113 [Note] InnoDB: 5.6.21 started; log sequence number 1625200
+2015-02-14 20:32:58 1113 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-14 20:32:58 1113 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-14 20:32:58 1113 [Note] Event Scheduler: Loaded 0 events
+2015-02-14 20:32:58 1113 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
+2015-02-14 21:26:09 1113 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Normal shutdown
+
+2015-02-14 21:26:09 1113 [Note] Giving 0 client threads a chance to die gracefully
+2015-02-14 21:26:09 1113 [Note] Event Scheduler: Purging the queue. 0 events
+2015-02-14 21:26:09 1113 [Note] Shutting down slave threads
+2015-02-14 21:26:09 1113 [Note] Forcefully disconnecting 0 remaining clients
+2015-02-14 21:26:09 1113 [Note] Binlog end
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'partition'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_METRICS'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_CMP'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_LOCKS'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'INNODB_TRX'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'InnoDB'
+2015-02-14 21:26:09 1113 [Note] InnoDB: FTS optimize thread exiting.
+2015-02-14 21:26:09 1113 [Note] InnoDB: Starting shutdown...
+2015-02-14 21:26:09 1113 [Note] InnoDB: Shutdown completed; log sequence number 1625210
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'BLACKHOLE'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'ARCHIVE'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'MRG_MYISAM'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'MyISAM'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'MEMORY'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'CSV'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'sha256_password'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'mysql_old_password'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'mysql_native_password'
+2015-02-14 21:26:09 1113 [Note] Shutting down plugin 'binlog'
+2015-02-14 21:26:09 1113 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
+2015-02-15 09:19:30 705 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-15 09:19:31 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-15 09:19:31 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-15 09:19:31 1085 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-15 09:19:31 1085 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-15 09:19:31 1085 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-15 09:19:31 1085 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-15 09:19:31 1085 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-15 09:19:31 1085 [Note] InnoDB: Memory barrier is not used
+2015-02-15 09:19:31 1085 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-15 09:19:31 1085 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-15 09:19:31 1085 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-15 09:19:31 1085 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-15 09:19:31 1085 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-15 09:19:31 1085 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-15 09:19:31 1085 [Note] InnoDB: Waiting for purge to start
+2015-02-15 09:19:31 1085 [Note] InnoDB: 5.6.21 started; log sequence number 1625210
+2015-02-15 09:19:31 1085 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-15 09:19:31 1085 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-15 09:19:31 1085 [Note] Event Scheduler: Loaded 0 events
+2015-02-15 09:19:31 1085 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
+2015-02-15 09:23:12 1085 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Normal shutdown
+
+2015-02-15 09:23:12 1085 [Note] Giving 0 client threads a chance to die gracefully
+2015-02-15 09:23:12 1085 [Note] Event Scheduler: Purging the queue. 0 events
+2015-02-15 09:23:12 1085 [Note] Shutting down slave threads
+2015-02-15 09:23:12 1085 [Note] Forcefully disconnecting 0 remaining clients
+2015-02-15 09:23:12 1085 [Note] Binlog end
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'partition'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_METRICS'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_CMP'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_LOCKS'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'INNODB_TRX'
+2015-02-15 09:23:12 1085 [Note] Shutting down plugin 'InnoDB'
+2015-02-15 09:23:12 1085 [Note] InnoDB: FTS optimize thread exiting.
+2015-02-15 09:23:12 1085 [Note] InnoDB: Starting shutdown...
+2015-02-15 09:23:13 1085 [Note] InnoDB: Shutdown completed; log sequence number 1625220
+2015-02-15 09:23:13 1085 [Note] Shutting down plugin 'BLACKHOLE'
+2015-02-15 09:23:13 1085 [Note] Shutting down plugin 'ARCHIVE'
+2015-02-15 09:23:13 1085 [Note] Shutting down plugin 'MRG_MYISAM'
+2015-02-15 09:23:13 1085 [Note] Shutting down plugin 'MyISAM'
+2015-02-15 09:23:13 1085 [Note] Shutting down plugin 'MEMORY'
+2015-02-15 09:23:13 1085 [Note] Shutting down plugin 'CSV'
+2015-02-15 09:23:13 1085 [Note] Shutting down plugin 'sha256_password'
+2015-02-15 09:23:13 1085 [Note] Shutting down plugin 'mysql_old_password'
+2015-02-15 09:23:13 1085 [Note] Shutting down plugin 'mysql_native_password'
+2015-02-15 09:23:13 1085 [Note] Shutting down plugin 'binlog'
+2015-02-15 09:23:13 1085 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
+2015-02-15 09:23:13 705 mysqld_safe mysqld from pid file /Applications/XAMPP/xamppfiles/var/mysql/jojo-2.local.pid ended
+2015-02-15 09:57:05 2455 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-15 09:57:05 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-15 09:57:05 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-15 09:57:05 2835 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-15 09:57:05 2835 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-15 09:57:05 2835 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-15 09:57:05 2835 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-15 09:57:05 2835 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-15 09:57:05 2835 [Note] InnoDB: Memory barrier is not used
+2015-02-15 09:57:05 2835 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-15 09:57:05 2835 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-15 09:57:05 2835 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-15 09:57:05 2835 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-15 09:57:05 2835 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-15 09:57:05 2835 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-15 09:57:05 2835 [Note] InnoDB: Waiting for purge to start
+2015-02-15 09:57:05 2835 [Note] InnoDB: 5.6.21 started; log sequence number 1625220
+2015-02-15 09:57:05 2835 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-15 09:57:05 2835 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-15 09:57:05 2835 [Note] Event Scheduler: Loaded 0 events
+2015-02-15 09:57:05 2835 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
+2015-02-15 10:47:13 2835 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Normal shutdown
+
+2015-02-15 10:47:13 2835 [Note] Giving 0 client threads a chance to die gracefully
+2015-02-15 10:47:13 2835 [Note] Event Scheduler: Purging the queue. 0 events
+2015-02-15 10:47:13 2835 [Note] Shutting down slave threads
+2015-02-15 10:47:13 2835 [Note] Forcefully disconnecting 0 remaining clients
+2015-02-15 10:47:13 2835 [Note] Binlog end
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'partition'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_METRICS'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_CMP'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_LOCKS'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'INNODB_TRX'
+2015-02-15 10:47:13 2835 [Note] Shutting down plugin 'InnoDB'
+2015-02-15 10:47:13 2835 [Note] InnoDB: FTS optimize thread exiting.
+2015-02-15 10:47:13 2835 [Note] InnoDB: Starting shutdown...
+2015-02-15 10:47:14 2835 [Note] InnoDB: Shutdown completed; log sequence number 1625230
+2015-02-15 10:47:14 2835 [Note] Shutting down plugin 'BLACKHOLE'
+2015-02-15 10:47:14 2835 [Note] Shutting down plugin 'ARCHIVE'
+2015-02-15 10:47:14 2835 [Note] Shutting down plugin 'MRG_MYISAM'
+2015-02-15 10:47:14 2835 [Note] Shutting down plugin 'MyISAM'
+2015-02-15 10:47:14 2835 [Note] Shutting down plugin 'MEMORY'
+2015-02-15 10:47:14 2835 [Note] Shutting down plugin 'CSV'
+2015-02-15 10:47:14 2835 [Note] Shutting down plugin 'sha256_password'
+2015-02-15 10:47:14 2835 [Note] Shutting down plugin 'mysql_old_password'
+2015-02-15 10:47:14 2835 [Note] Shutting down plugin 'mysql_native_password'
+2015-02-15 10:47:14 2835 [Note] Shutting down plugin 'binlog'
+2015-02-15 10:47:14 2835 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
+2015-02-15 10:47:14 2455 mysqld_safe mysqld from pid file /Applications/XAMPP/xamppfiles/var/mysql/jojo-2.local.pid ended
+2015-02-15 10:47:25 5853 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-15 10:47:25 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-15 10:47:25 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-15 10:47:25 6233 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-15 10:47:25 6233 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-15 10:47:25 6233 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-15 10:47:25 6233 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-15 10:47:25 6233 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-15 10:47:25 6233 [Note] InnoDB: Memory barrier is not used
+2015-02-15 10:47:25 6233 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-15 10:47:25 6233 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-15 10:47:25 6233 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-15 10:47:25 6233 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-15 10:47:26 6233 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-15 10:47:26 6233 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-15 10:47:26 6233 [Note] InnoDB: Waiting for purge to start
+2015-02-15 10:47:26 6233 [Note] InnoDB: 5.6.21 started; log sequence number 1625230
+2015-02-15 10:47:26 6233 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-15 10:47:26 6233 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-15 10:47:26 6233 [Note] Event Scheduler: Loaded 0 events
+2015-02-15 10:47:26 6233 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
+2015-02-15 16:20:08 6233 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Normal shutdown
+
+2015-02-15 16:20:08 6233 [Note] Giving 0 client threads a chance to die gracefully
+2015-02-15 16:20:08 6233 [Note] Event Scheduler: Purging the queue. 0 events
+2015-02-15 16:20:08 6233 [Note] Shutting down slave threads
+2015-02-15 16:20:08 6233 [Note] Forcefully disconnecting 0 remaining clients
+2015-02-15 16:20:08 6233 [Note] Binlog end
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'partition'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_METRICS'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_CMP'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_LOCKS'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'INNODB_TRX'
+2015-02-15 16:20:08 6233 [Note] Shutting down plugin 'InnoDB'
+2015-02-15 16:20:08 6233 [Note] InnoDB: FTS optimize thread exiting.
+2015-02-15 16:20:08 6233 [Note] InnoDB: Starting shutdown...
+2015-02-15 16:20:09 6233 [Note] InnoDB: Shutdown completed; log sequence number 1625240
+2015-02-15 16:20:09 6233 [Note] Shutting down plugin 'BLACKHOLE'
+2015-02-15 16:20:09 6233 [Note] Shutting down plugin 'ARCHIVE'
+2015-02-15 16:20:09 6233 [Note] Shutting down plugin 'MRG_MYISAM'
+2015-02-15 16:20:09 6233 [Note] Shutting down plugin 'MyISAM'
+2015-02-15 16:20:09 6233 [Note] Shutting down plugin 'MEMORY'
+2015-02-15 16:20:09 6233 [Note] Shutting down plugin 'CSV'
+2015-02-15 16:20:09 6233 [Note] Shutting down plugin 'sha256_password'
+2015-02-15 16:20:09 6233 [Note] Shutting down plugin 'mysql_old_password'
+2015-02-15 16:20:09 6233 [Note] Shutting down plugin 'mysql_native_password'
+2015-02-15 16:20:09 6233 [Note] Shutting down plugin 'binlog'
+2015-02-15 16:20:09 6233 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
+2015-02-15 20:03:03 1304 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-15 20:03:04 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-15 20:03:04 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-15 20:03:04 1684 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-15 20:03:04 1684 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-15 20:03:04 1684 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-15 20:03:04 1684 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-15 20:03:04 1684 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-15 20:03:04 1684 [Note] InnoDB: Memory barrier is not used
+2015-02-15 20:03:04 1684 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-15 20:03:04 1684 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-15 20:03:04 1684 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-15 20:03:04 1684 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-15 20:03:04 1684 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-15 20:03:04 1684 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-15 20:03:04 1684 [Note] InnoDB: Waiting for purge to start
+2015-02-15 20:03:04 1684 [Note] InnoDB: 5.6.21 started; log sequence number 1625240
+2015-02-15 20:03:04 1684 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-15 20:03:04 1684 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-15 20:03:04 1684 [Note] Event Scheduler: Loaded 0 events
+2015-02-15 20:03:04 1684 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
+2015-02-15 20:50:11 1684 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Normal shutdown
+
+2015-02-15 20:50:11 1684 [Note] Giving 0 client threads a chance to die gracefully
+2015-02-15 20:50:11 1684 [Note] Event Scheduler: Purging the queue. 0 events
+2015-02-15 20:50:11 1684 [Note] Shutting down slave threads
+2015-02-15 20:50:11 1684 [Note] Forcefully disconnecting 0 remaining clients
+2015-02-15 20:50:11 1684 [Note] Binlog end
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'partition'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_METRICS'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_CMP'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_LOCKS'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'INNODB_TRX'
+2015-02-15 20:50:11 1684 [Note] Shutting down plugin 'InnoDB'
+2015-02-15 20:50:11 1684 [Note] InnoDB: FTS optimize thread exiting.
+2015-02-15 20:50:11 1684 [Note] InnoDB: Starting shutdown...
+2015-02-15 20:50:12 1684 [Note] InnoDB: Shutdown completed; log sequence number 1625250
+2015-02-15 20:50:12 1684 [Note] Shutting down plugin 'BLACKHOLE'
+2015-02-15 20:50:12 1684 [Note] Shutting down plugin 'ARCHIVE'
+2015-02-15 20:50:12 1684 [Note] Shutting down plugin 'MRG_MYISAM'
+2015-02-15 20:50:12 1684 [Note] Shutting down plugin 'MyISAM'
+2015-02-15 20:50:12 1684 [Note] Shutting down plugin 'MEMORY'
+2015-02-15 20:50:12 1684 [Note] Shutting down plugin 'CSV'
+2015-02-15 20:50:12 1684 [Note] Shutting down plugin 'sha256_password'
+2015-02-15 20:50:12 1684 [Note] Shutting down plugin 'mysql_old_password'
+2015-02-15 20:50:12 1684 [Note] Shutting down plugin 'mysql_native_password'
+2015-02-15 20:50:12 1684 [Note] Shutting down plugin 'binlog'
+2015-02-15 20:50:12 1684 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
+2015-02-15 20:50:12 1304 mysqld_safe mysqld from pid file /Applications/XAMPP/xamppfiles/var/mysql/jojo-2.local.pid ended
+2015-02-15 20:53:53 5218 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-15 20:53:53 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-15 20:53:53 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-15 20:53:53 5598 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-15 20:53:53 5598 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-15 20:53:53 5598 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-15 20:53:53 5598 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-15 20:53:53 5598 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-15 20:53:53 5598 [Note] InnoDB: Memory barrier is not used
+2015-02-15 20:53:53 5598 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-15 20:53:53 5598 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-15 20:53:53 5598 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-15 20:53:53 5598 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-15 20:53:53 5598 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-15 20:53:53 5598 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-15 20:53:53 5598 [Note] InnoDB: Waiting for purge to start
+2015-02-15 20:53:53 5598 [Note] InnoDB: 5.6.21 started; log sequence number 1625250
+2015-02-15 20:53:53 5598 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-15 20:53:53 5598 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-15 20:53:53 5598 [Note] Event Scheduler: Loaded 0 events
+2015-02-15 20:53:53 5598 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
+2015-02-15 21:02:34 5598 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Normal shutdown
+
+2015-02-15 21:02:34 5598 [Note] Giving 0 client threads a chance to die gracefully
+2015-02-15 21:02:34 5598 [Note] Event Scheduler: Purging the queue. 0 events
+2015-02-15 21:02:34 5598 [Note] Shutting down slave threads
+2015-02-15 21:02:34 5598 [Note] Forcefully disconnecting 0 remaining clients
+2015-02-15 21:02:34 5598 [Note] Binlog end
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'partition'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_METRICS'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_CMP'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_LOCKS'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'INNODB_TRX'
+2015-02-15 21:02:34 5598 [Note] Shutting down plugin 'InnoDB'
+2015-02-15 21:02:34 5598 [Note] InnoDB: FTS optimize thread exiting.
+2015-02-15 21:02:34 5598 [Note] InnoDB: Starting shutdown...
+2015-02-15 21:02:36 5598 [Note] InnoDB: Shutdown completed; log sequence number 1625260
+2015-02-15 21:02:36 5598 [Note] Shutting down plugin 'BLACKHOLE'
+2015-02-15 21:02:36 5598 [Note] Shutting down plugin 'ARCHIVE'
+2015-02-15 21:02:36 5598 [Note] Shutting down plugin 'MRG_MYISAM'
+2015-02-15 21:02:36 5598 [Note] Shutting down plugin 'MyISAM'
+2015-02-15 21:02:36 5598 [Note] Shutting down plugin 'MEMORY'
+2015-02-15 21:02:36 5598 [Note] Shutting down plugin 'CSV'
+2015-02-15 21:02:36 5598 [Note] Shutting down plugin 'sha256_password'
+2015-02-15 21:02:36 5598 [Note] Shutting down plugin 'mysql_old_password'
+2015-02-15 21:02:36 5598 [Note] Shutting down plugin 'mysql_native_password'
+2015-02-15 21:02:36 5598 [Note] Shutting down plugin 'binlog'
+2015-02-15 21:02:36 5598 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
+2015-02-15 21:02:36 5218 mysqld_safe mysqld from pid file /Applications/XAMPP/xamppfiles/var/mysql/jojo-2.local.pid ended
+2015-02-15 21:02:48 6309 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-15 21:02:49 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-15 21:02:49 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-15 21:02:49 6689 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-15 21:02:49 6689 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-15 21:02:49 6689 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-15 21:02:49 6689 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-15 21:02:49 6689 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-15 21:02:49 6689 [Note] InnoDB: Memory barrier is not used
+2015-02-15 21:02:49 6689 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-15 21:02:49 6689 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-15 21:02:49 6689 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-15 21:02:49 6689 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-15 21:02:49 6689 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-15 21:02:49 6689 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-15 21:02:49 6689 [Note] InnoDB: Waiting for purge to start
+2015-02-15 21:02:49 6689 [Note] InnoDB: 5.6.21 started; log sequence number 1625260
+2015-02-15 21:02:49 6689 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-15 21:02:49 6689 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-15 21:02:49 6689 [Note] Event Scheduler: Loaded 0 events
+2015-02-15 21:02:49 6689 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
+2015-02-15 23:00:27 6689 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Normal shutdown
+
+2015-02-15 23:00:27 6689 [Note] Giving 0 client threads a chance to die gracefully
+2015-02-15 23:00:27 6689 [Note] Event Scheduler: Purging the queue. 0 events
+2015-02-15 23:00:27 6689 [Note] Shutting down slave threads
+2015-02-15 23:00:27 6689 [Note] Forcefully disconnecting 0 remaining clients
+2015-02-15 23:00:27 6689 [Note] Binlog end
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'partition'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_METRICS'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_CMP'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_LOCKS'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'INNODB_TRX'
+2015-02-15 23:00:27 6689 [Note] Shutting down plugin 'InnoDB'
+2015-02-15 23:00:27 6689 [Note] InnoDB: FTS optimize thread exiting.
+2015-02-15 23:00:27 6689 [Note] InnoDB: Starting shutdown...
+2015-02-15 23:00:28 6689 [Note] InnoDB: Shutdown completed; log sequence number 1625270
+2015-02-15 23:00:28 6689 [Note] Shutting down plugin 'BLACKHOLE'
+2015-02-15 23:00:28 6689 [Note] Shutting down plugin 'ARCHIVE'
+2015-02-15 23:00:28 6689 [Note] Shutting down plugin 'MRG_MYISAM'
+2015-02-15 23:00:28 6689 [Note] Shutting down plugin 'MyISAM'
+2015-02-15 23:00:28 6689 [Note] Shutting down plugin 'MEMORY'
+2015-02-15 23:00:28 6689 [Note] Shutting down plugin 'CSV'
+2015-02-15 23:00:28 6689 [Note] Shutting down plugin 'sha256_password'
+2015-02-15 23:00:28 6689 [Note] Shutting down plugin 'mysql_old_password'
+2015-02-15 23:00:28 6689 [Note] Shutting down plugin 'mysql_native_password'
+2015-02-15 23:00:28 6689 [Note] Shutting down plugin 'binlog'
+2015-02-15 23:00:28 6689 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
+2015-02-21 13:21:10 808 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-21 13:21:10 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-21 13:21:10 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-21 13:21:10 1188 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-21 13:21:10 1188 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-21 13:21:10 1188 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-21 13:21:10 1188 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-21 13:21:10 1188 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-21 13:21:10 1188 [Note] InnoDB: Memory barrier is not used
+2015-02-21 13:21:10 1188 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-21 13:21:10 1188 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-21 13:21:10 1188 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-21 13:21:10 1188 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-21 13:21:10 1188 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-21 13:21:10 1188 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-21 13:21:10 1188 [Note] InnoDB: Waiting for purge to start
+2015-02-21 13:21:11 1188 [Note] InnoDB: 5.6.21 started; log sequence number 1625270
+2015-02-21 13:21:11 1188 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-21 13:21:11 1188 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-21 13:21:11 1188 [Note] Event Scheduler: Loaded 0 events
+2015-02-21 13:21:11 1188 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
+2015-02-21 15:10:02 1188 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Normal shutdown
+
+2015-02-21 15:10:02 1188 [Note] Giving 0 client threads a chance to die gracefully
+2015-02-21 15:10:02 1188 [Note] Event Scheduler: Purging the queue. 0 events
+2015-02-21 15:10:02 1188 [Note] Shutting down slave threads
+2015-02-21 15:10:02 1188 [Note] Forcefully disconnecting 0 remaining clients
+2015-02-21 15:10:02 1188 [Note] Binlog end
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'partition'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_METRICS'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_CMP'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_LOCKS'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'INNODB_TRX'
+2015-02-21 15:10:02 1188 [Note] Shutting down plugin 'InnoDB'
+2015-02-21 15:10:02 1188 [Note] InnoDB: FTS optimize thread exiting.
+2015-02-21 15:10:02 1188 [Note] InnoDB: Starting shutdown...
+2015-02-21 15:10:03 1188 [Note] InnoDB: Shutdown completed; log sequence number 1625280
+2015-02-21 15:10:03 1188 [Note] Shutting down plugin 'BLACKHOLE'
+2015-02-21 15:10:03 1188 [Note] Shutting down plugin 'ARCHIVE'
+2015-02-21 15:10:03 1188 [Note] Shutting down plugin 'MRG_MYISAM'
+2015-02-21 15:10:03 1188 [Note] Shutting down plugin 'MyISAM'
+2015-02-21 15:10:03 1188 [Note] Shutting down plugin 'MEMORY'
+2015-02-21 15:10:03 1188 [Note] Shutting down plugin 'CSV'
+2015-02-21 15:10:03 1188 [Note] Shutting down plugin 'sha256_password'
+2015-02-21 15:10:03 1188 [Note] Shutting down plugin 'mysql_old_password'
+2015-02-21 15:10:03 1188 [Note] Shutting down plugin 'mysql_native_password'
+2015-02-21 15:10:03 1188 [Note] Shutting down plugin 'binlog'
+2015-02-21 15:10:03 1188 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
+2015-02-21 15:10:03 808 mysqld_safe mysqld from pid file /Applications/XAMPP/xamppfiles/var/mysql/jojo-2.local.pid ended
+2015-02-21 15:13:43 8507 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-21 15:13:44 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-21 15:13:44 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-21 15:13:44 8887 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-21 15:13:44 8887 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-21 15:13:44 8887 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-21 15:13:44 8887 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-21 15:13:44 8887 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-21 15:13:44 8887 [Note] InnoDB: Memory barrier is not used
+2015-02-21 15:13:44 8887 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-21 15:13:44 8887 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-21 15:13:44 8887 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-21 15:13:44 8887 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-21 15:13:44 8887 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-21 15:13:44 8887 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-21 15:13:44 8887 [Note] InnoDB: Waiting for purge to start
+2015-02-21 15:13:44 8887 [Note] InnoDB: 5.6.21 started; log sequence number 1625280
+2015-02-21 15:13:44 8887 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-21 15:13:44 8887 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-21 15:13:44 8887 [Note] Event Scheduler: Loaded 0 events
+2015-02-21 15:13:44 8887 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
+2015-02-21 15:20:08 8887 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Normal shutdown
+
+2015-02-21 15:20:08 8887 [Note] Giving 0 client threads a chance to die gracefully
+2015-02-21 15:20:08 8887 [Note] Event Scheduler: Purging the queue. 0 events
+2015-02-21 15:20:08 8887 [Note] Shutting down slave threads
+2015-02-21 15:20:08 8887 [Note] Forcefully disconnecting 0 remaining clients
+2015-02-21 15:20:08 8887 [Note] Binlog end
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'partition'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_METRICS'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_CMP'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_LOCKS'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'INNODB_TRX'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'InnoDB'
+2015-02-21 15:20:08 8887 [Note] InnoDB: FTS optimize thread exiting.
+2015-02-21 15:20:08 8887 [Note] InnoDB: Starting shutdown...
+2015-02-21 15:20:08 8887 [Note] InnoDB: Shutdown completed; log sequence number 1625290
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'BLACKHOLE'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'ARCHIVE'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'MRG_MYISAM'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'MyISAM'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'MEMORY'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'CSV'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'sha256_password'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'mysql_old_password'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'mysql_native_password'
+2015-02-21 15:20:08 8887 [Note] Shutting down plugin 'binlog'
+2015-02-21 15:20:08 8887 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
+2015-02-21 15:20:08 8507 mysqld_safe mysqld from pid file /Applications/XAMPP/xamppfiles/var/mysql/jojo-2.local.pid ended
+2015-02-21 17:10:07 10437 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-21 17:10:08 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-21 17:10:08 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-21 17:10:08 10817 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-21 17:10:08 10817 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-21 17:10:08 10817 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-21 17:10:08 10817 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-21 17:10:08 10817 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-21 17:10:08 10817 [Note] InnoDB: Memory barrier is not used
+2015-02-21 17:10:08 10817 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-21 17:10:08 10817 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-21 17:10:08 10817 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-21 17:10:08 10817 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-21 17:10:08 10817 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-21 17:10:08 10817 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-21 17:10:08 10817 [Note] InnoDB: Waiting for purge to start
+2015-02-21 17:10:08 10817 [Note] InnoDB: 5.6.21 started; log sequence number 1625300
+2015-02-21 17:10:08 10817 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-21 17:10:08 10817 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-21 17:10:08 10817 [Note] Event Scheduler: Loaded 0 events
+2015-02-21 17:10:08 10817 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
+2015-02-21 17:15:54 10817 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Normal shutdown
+
+2015-02-21 17:15:54 10817 [Note] Giving 0 client threads a chance to die gracefully
+2015-02-21 17:15:54 10817 [Note] Event Scheduler: Purging the queue. 0 events
+2015-02-21 17:15:54 10817 [Note] Shutting down slave threads
+2015-02-21 17:15:54 10817 [Note] Forcefully disconnecting 0 remaining clients
+2015-02-21 17:15:54 10817 [Note] Binlog end
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'partition'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_METRICS'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_CMP'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_LOCKS'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'INNODB_TRX'
+2015-02-21 17:15:54 10817 [Note] Shutting down plugin 'InnoDB'
+2015-02-21 17:15:54 10817 [Note] InnoDB: FTS optimize thread exiting.
+2015-02-21 17:15:54 10817 [Note] InnoDB: Starting shutdown...
+2015-02-21 17:15:55 10817 [Note] InnoDB: Shutdown completed; log sequence number 1625310
+2015-02-21 17:15:55 10817 [Note] Shutting down plugin 'BLACKHOLE'
+2015-02-21 17:15:55 10817 [Note] Shutting down plugin 'ARCHIVE'
+2015-02-21 17:15:55 10817 [Note] Shutting down plugin 'MRG_MYISAM'
+2015-02-21 17:15:55 10817 [Note] Shutting down plugin 'MyISAM'
+2015-02-21 17:15:55 10817 [Note] Shutting down plugin 'MEMORY'
+2015-02-21 17:15:55 10817 [Note] Shutting down plugin 'CSV'
+2015-02-21 17:15:55 10817 [Note] Shutting down plugin 'sha256_password'
+2015-02-21 17:15:55 10817 [Note] Shutting down plugin 'mysql_old_password'
+2015-02-21 17:15:55 10817 [Note] Shutting down plugin 'mysql_native_password'
+2015-02-21 17:15:55 10817 [Note] Shutting down plugin 'binlog'
+2015-02-21 17:15:55 10817 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
+2015-02-21 17:15:55 10437 mysqld_safe mysqld from pid file /Applications/XAMPP/xamppfiles/var/mysql/jojo-2.local.pid ended
+2015-02-21 17:17:08 11628 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-21 17:17:08 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-21 17:17:08 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-21 17:17:08 12008 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-21 17:17:08 12008 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-21 17:17:08 12008 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-21 17:17:08 12008 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-21 17:17:08 12008 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-21 17:17:08 12008 [Note] InnoDB: Memory barrier is not used
+2015-02-21 17:17:08 12008 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-21 17:17:08 12008 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-21 17:17:08 12008 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-21 17:17:08 12008 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-21 17:17:08 12008 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-21 17:17:08 12008 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-21 17:17:08 12008 [Note] InnoDB: Waiting for purge to start
+2015-02-21 17:17:08 12008 [Note] InnoDB: 5.6.21 started; log sequence number 1625320
+2015-02-21 17:17:08 12008 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-21 17:17:08 12008 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-21 17:17:08 12008 [Note] Event Scheduler: Loaded 0 events
+2015-02-21 17:17:08 12008 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
+2015-02-21 17:22:16 12008 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Normal shutdown
+
+2015-02-21 17:22:16 12008 [Note] Giving 1 client threads a chance to die gracefully
+2015-02-21 17:22:16 12008 [Note] Event Scheduler: Purging the queue. 0 events
+2015-02-21 17:22:16 12008 [Note] Shutting down slave threads
+2015-02-21 17:22:18 12008 [Note] Forcefully disconnecting 1 remaining clients
+2015-02-21 17:22:18 12008 [Warning] /Applications/XAMPP/xamppfiles/sbin/mysqld: Forcing close of thread 5  user: 'linrongke'
+
+2015-02-21 17:22:18 12008 [Note] Binlog end
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'partition'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_METRICS'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_CMP'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_LOCKS'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'INNODB_TRX'
+2015-02-21 17:22:18 12008 [Note] Shutting down plugin 'InnoDB'
+2015-02-21 17:22:18 12008 [Note] InnoDB: FTS optimize thread exiting.
+2015-02-21 17:22:18 12008 [Note] InnoDB: Starting shutdown...
+2015-02-21 17:22:19 12008 [Note] InnoDB: Shutdown completed; log sequence number 1625330
+2015-02-21 17:22:19 12008 [Note] Shutting down plugin 'BLACKHOLE'
+2015-02-21 17:22:19 12008 [Note] Shutting down plugin 'ARCHIVE'
+2015-02-21 17:22:19 12008 [Note] Shutting down plugin 'MRG_MYISAM'
+2015-02-21 17:22:19 12008 [Note] Shutting down plugin 'MyISAM'
+2015-02-21 17:22:19 12008 [Note] Shutting down plugin 'MEMORY'
+2015-02-21 17:22:19 12008 [Note] Shutting down plugin 'CSV'
+2015-02-21 17:22:19 12008 [Note] Shutting down plugin 'sha256_password'
+2015-02-21 17:22:19 12008 [Note] Shutting down plugin 'mysql_old_password'
+2015-02-21 17:22:19 12008 [Note] Shutting down plugin 'mysql_native_password'
+2015-02-21 17:22:19 12008 [Note] Shutting down plugin 'binlog'
+2015-02-21 17:22:19 12008 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
+2015-02-21 17:22:19 11628 mysqld_safe mysqld from pid file /Applications/XAMPP/xamppfiles/var/mysql/jojo-2.local.pid ended
+2015-02-21 17:29:25 13102 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-21 17:29:25 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-21 17:29:25 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-21 17:29:25 13482 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-21 17:29:25 13482 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-21 17:29:25 13482 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-21 17:29:25 13482 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-21 17:29:25 13482 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-21 17:29:25 13482 [Note] InnoDB: Memory barrier is not used
+2015-02-21 17:29:25 13482 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-21 17:29:25 13482 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-21 17:29:25 13482 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-21 17:29:25 13482 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-21 17:29:25 13482 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-21 17:29:26 13482 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-21 17:29:26 13482 [Note] InnoDB: Waiting for purge to start
+2015-02-21 17:29:26 13482 [Note] InnoDB: 5.6.21 started; log sequence number 1625340
+2015-02-21 17:29:26 13482 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-21 17:29:26 13482 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-21 17:29:26 13482 [Note] Event Scheduler: Loaded 0 events
+2015-02-21 17:29:26 13482 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
+2015-02-21 17:30:49 13482 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Normal shutdown
+
+2015-02-21 17:30:49 13482 [Note] Giving 0 client threads a chance to die gracefully
+2015-02-21 17:30:49 13482 [Note] Event Scheduler: Purging the queue. 0 events
+2015-02-21 17:30:49 13482 [Note] Shutting down slave threads
+2015-02-21 17:30:49 13482 [Note] Forcefully disconnecting 0 remaining clients
+2015-02-21 17:30:49 13482 [Note] Binlog end
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'partition'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_METRICS'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_CMP'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_LOCKS'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'INNODB_TRX'
+2015-02-21 17:30:49 13482 [Note] Shutting down plugin 'InnoDB'
+2015-02-21 17:30:49 13482 [Note] InnoDB: FTS optimize thread exiting.
+2015-02-21 17:30:49 13482 [Note] InnoDB: Starting shutdown...
+2015-02-21 17:30:50 13482 [Note] InnoDB: Shutdown completed; log sequence number 1625350
+2015-02-21 17:30:50 13482 [Note] Shutting down plugin 'BLACKHOLE'
+2015-02-21 17:30:50 13482 [Note] Shutting down plugin 'ARCHIVE'
+2015-02-21 17:30:50 13482 [Note] Shutting down plugin 'MRG_MYISAM'
+2015-02-21 17:30:50 13482 [Note] Shutting down plugin 'MyISAM'
+2015-02-21 17:30:50 13482 [Note] Shutting down plugin 'MEMORY'
+2015-02-21 17:30:50 13482 [Note] Shutting down plugin 'CSV'
+2015-02-21 17:30:50 13482 [Note] Shutting down plugin 'sha256_password'
+2015-02-21 17:30:50 13482 [Note] Shutting down plugin 'mysql_old_password'
+2015-02-21 17:30:50 13482 [Note] Shutting down plugin 'mysql_native_password'
+2015-02-21 17:30:50 13482 [Note] Shutting down plugin 'binlog'
+2015-02-21 17:30:50 13482 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: Shutdown complete
+
+2015-02-21 17:30:50 13102 mysqld_safe mysqld from pid file /Applications/XAMPP/xamppfiles/var/mysql/jojo-2.local.pid ended
+2015-02-21 17:33:10 14115 mysqld_safe Starting mysqld daemon with databases from /Applications/XAMPP/xamppfiles/var/mysql
+2015-02-21 17:33:11 0 [Warning] Using unique option prefix key_buffer instead of key_buffer_size is deprecated and will be removed in a future release. Please use the full name instead.
+2015-02-21 17:33:11 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2015-02-21 17:33:11 14498 [Warning] Setting lower_case_table_names=2 because file system for /Applications/XAMPP/xamppfiles/var/mysql/ is case insensitive
+2015-02-21 17:33:11 14498 [Note] Plugin 'FEDERATED' is disabled.
+2015-02-21 17:33:11 14498 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2015-02-21 17:33:11 14498 [Note] InnoDB: The InnoDB memory heap is disabled
+2015-02-21 17:33:11 14498 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2015-02-21 17:33:11 14498 [Note] InnoDB: Memory barrier is not used
+2015-02-21 17:33:11 14498 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2015-02-21 17:33:11 14498 [Note] InnoDB: Using CPU crc32 instructions
+2015-02-21 17:33:11 14498 [Note] InnoDB: Initializing buffer pool, size = 16.0M
+2015-02-21 17:33:11 14498 [Note] InnoDB: Completed initialization of buffer pool
+2015-02-21 17:33:11 14498 [Note] InnoDB: Highest supported file format is Barracuda.
+2015-02-21 17:33:11 14498 [Note] InnoDB: 128 rollback segment(s) are active.
+2015-02-21 17:33:11 14498 [Note] InnoDB: 5.6.21 started; log sequence number 1625360
+2015-02-21 17:33:11 14498 [Note] RSA private key file not found: /Applications/XAMPP/xamppfiles/var/mysql//private_key.pem. Some authentication plugins will not work.
+2015-02-21 17:33:11 14498 [Note] RSA public key file not found: /Applications/XAMPP/xamppfiles/var/mysql//public_key.pem. Some authentication plugins will not work.
+2015-02-21 17:33:11 14498 [Note] Event Scheduler: Loaded 0 events
+2015-02-21 17:33:11 14498 [Note] /Applications/XAMPP/xamppfiles/sbin/mysqld: ready for connections.
+Version: '5.6.21'  socket: '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock'  port: 0  Source distribution
